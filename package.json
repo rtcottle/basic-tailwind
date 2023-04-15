@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "npx tailwindcss -i ./styles.css -o ./output.css --watch"
+  },
   "devDependencies": {
     "tailwindcss": "^3.3.1"
   }
