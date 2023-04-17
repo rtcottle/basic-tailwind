@@ -1,11 +1,12 @@
 function dynamic() {
-    const colors = {
-        red: 'hover:text-red-600 text-center',
-        green: 'hover:text-green-600 text-center'
-    }
+  const colors = {
+    red: 'hover:text-red-600 text-center',
+    green: 'hover:text-green-600 text-center',
+  };
 
-    return {
-        <div className={`${colors}`}>
-        </div>
-    }
+  document.getElementById('change').innerHTML = 'hello';
+
+  return <div className={`${colors.red}`}>2</div>;
 }
+
+dynamic();

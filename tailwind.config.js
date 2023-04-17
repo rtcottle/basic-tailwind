@@ -2,7 +2,11 @@
 module.exports = {
   content: ['./index.html'],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'pulse-slow': 'pulse 6s linear infinite',
+      },
+    },
   },
   plugins: [],
 };
